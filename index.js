@@ -8,7 +8,7 @@ const findPoint = (cx, cy, rad, cornerGrad) => {
   return { x: nx, y: ny };
 };
 
-const rays = async () => {
+const rays = () => {
   findPoint();
   const n = 5;
   const corner = 360 / n;
